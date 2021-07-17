@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Libre+Baskerville&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*body{
+    display:block;
+    margin: 0px;
+    background-color:#0e0e0e;
+    justify-content: center;
+    align-items: center;
+
+   }*/
+   body{
+    width:420px;
+    height: 900px;
+    background-color: hsla(0,0%,92%);
+    display:block;
+    padding:1rem 2rem;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+.header-menu{
+    display: flex;
+    width: 100%;
+  justify-content: space-between;
+}
+.header-menu .nav-title{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Chonburi', cursive;
+}
+.header-menu .fa{
+  font-size:30px;
+  color: tomato;
+}
+
+
+.container{
+    margin:4rem 0rem;
+
+}
+ .container .heading{
+     text-transform: capitalize;
+     margin: 1rem;
+     justify-content: space-evenly;
+ }
+ .container .heading h1{
+    font-family: 'Chonburi', cursive;
+    font-size:28px;
+
+ }
+ .container .heading p{
+     font-size: 18px;
+     color: gray;
+     width:100%;
+ }
+ .container .heading hr{
+     margin-top: 1.5rem;
+     width: 5rem;
+     height: 0.3rem;
+     background-color:red;
+ }
+
+ .img-container {
+     display: flex;
+   flex-wrap:wrap;
+
+ }
+ .img-container .img{
+     display: block;
+     padding: 2rem 1rem;
+     background-color:white;
+     border-radius: 20px;
+     text-align: center;
+      margin:1rem 1rem 1rem 0rem;
+ }
+ .img-container .img img{
+     border-radius: 50%;
+     width: 130px;
+     height: 130px;
+ }
+ .img-container .img h4{
+     margin-top: 10px;
+     text-transform: capitalize;
+     font-weight: 800;
+   font-size:16px;
+ }
